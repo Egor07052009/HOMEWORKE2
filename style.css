@@ -1,0 +1,59 @@
+:root {
+    --headings-color: #212121;
+    --accent-color: white;
+    --headings-color: #212121;
+    --accent-color: white;
+    --headings-color: #212121;
+    --accent-color: white;
+    --headings-color: #212121;
+    --accent-color: white;
+    --headings-color: #212121;
+    --accent-color: white;
+  }
+  
+  a{
+    color: red;
+  } 
+  /* Початок */
+  a[href^="https"] {
+    color: var(--accent-color);
+  }
+  /* Середина */
+  a[href*="youTube"] {
+    color: var(--accent-color);
+  }
+  /* Кінець */
+  a[href$=".com/"] {
+    color: var(--accent-color);
+  }
+  
+  .list + p {
+    font-size: 24px;
+  }
+  .link1:hover{
+    background-color: blue;
+  }
+  .link2:hover{
+    background-color: blue;
+  }
+  .link3:hover{
+   background-color: blue;
+  }
+  .link4:hover{
+    background-color: blue;
+  }
+  .link5:hover{
+    background-color: blue;
+  }
+  .link6:hover{
+    background-color: blue;
+  }
+  .link123456{
+    background-color: purple;
+  }
+  .link7{
+    background-color: orange;
+  }
+  .Title{
+    background-color: orange;
+  }
